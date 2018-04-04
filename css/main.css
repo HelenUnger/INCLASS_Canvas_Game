@@ -1,0 +1,31 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.hidden
+{
+	display: none;
+}
+
+body
+{
+	text-align: center; user-select: none;
+}
+
+canvas
+{
+	position: relative;
+	border: thin solid black;
+	display: block;
+	margin: 0 auto;
+}
+
+.hide-me
+{
+	display: none;
+}
+
+button
+{
+	margin: 8px;
+	user-select: none;
+}
