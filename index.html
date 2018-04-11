@@ -8,9 +8,22 @@
 	<title>Canvas Shooter!</title>
 </head>
 <body>
+	<div class="container"> <!-- this holds the scrolllin bg -->
+		<div class="sliding-background"></div>
+	</div>
 	<canvas width="600" height="600"></canvas>
+
+<!-- level up screen here-->
+<div class="level-up level-up-message">
+<p>Ready Player1?</p>
+<button class="reset">LEVEL UP</button>
+</div>
+
 		<button class="pause">Pause Game</button> <button class="play">Play Game</button>
 		<img class="hide-me ship" src="images/galaga.png" alt="player">
+		<img class="hide-me enemy1" src="images/enemy1.png" alt="enemy1">
+		<img class="hide-me enemy2" src="images/enemy2.png" alt="enemy2">
+		<img class="hide-me enemy3" src="images/enemy3.png" alt="enemy3">
 	<script src="js/main.js"></script>
 </body>
 </html>
